@@ -2,8 +2,13 @@
 background-color: #d8d8;    
 }
 
+.imagens{
+    width: 100%;
+}
 
-
-
+body{
+    background-color: darkred;
+    color: bisque;
+}
 
 
