@@ -6,7 +6,7 @@ color: #fb9bd5;
 }
 body{
     background-color: #fb9bd5;
-    color: #fb9bd5;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -18,7 +18,7 @@ body{
 a{
     margin: 20px;
     padding: 20px;
-    background-color: black;
-    color: green;
+    background-color: rgb(153, 26, 119);
+    color: rgb(158, 53, 53);
     border-radius: 20px;
 }
