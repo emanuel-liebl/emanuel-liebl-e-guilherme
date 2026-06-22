@@ -1,4 +1,4 @@
-** {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,8 +21,8 @@ header {
     min-height: 120px;
 }
 
-header img.logo.png {
-    width: 110px;
+header img.logo {
+    width: 130px;
     height: auto;
 }
 
