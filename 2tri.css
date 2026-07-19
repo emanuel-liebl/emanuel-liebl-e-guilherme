@@ -10,7 +10,6 @@ body {
     color: #1a2e44;
 }
 
-/* HEADER */
 
 header {
     background-color: #f8f8f3;
@@ -46,7 +45,7 @@ header h1 {
     padding: 10px;
 }
 
-/* SECTION */
+
 
 section {
     padding: 60px 80px;
@@ -98,7 +97,7 @@ section {
     background-color: #b5a05c;
 }
 
-/* FOOTER */
+
 
 footer {
     background-color: #1a2e44;
