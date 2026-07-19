@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="2tri.css">
 </head>
 <body>
+    <!-- HEADER: "Cartão de Visitas" (slide "A Tag <header>")
+         Abriga identidade visual (logo) e os controles de navegação/busca. -->
     <header>
         <img class="logo1" src="logo1.png" alt="Logo Impulso Rural">
         <h1>Impulso Rural</h1>
@@ -15,11 +17,14 @@
             <img src="tres linhas.png" alt="Menu">
         </div>
     </header>
-    <section>
-        <div class="card">
+
+        <!-- SECTION 1: "O Capítulo do Livro" (slide "A Tag <section>")
+             Tema central único, introduzido por h2 -> merece sua própria section. -->
+        <section class="card" aria-labelledby="titulo-maquinas">
             <img src="premium_photo-1664301163726-78773dc77bfd.avif" alt="Trator no campo">
+            <!-- A div aqui é só agrupamento visual para estilizar o texto (slide "A Tag <div>") -->
             <div class="card-texto">
-                <h2>Importância das máquinas</h2>
+                <h2 id="titulo-maquinas">Importância das máquinas</h2>
                 <p>O agronegócio é a base da economia e da segurança alimentar global, mas sua eficiência
                 atual só existe graças à evolução dos tratores. Essas máquinas transformaram o trabalho
                 braçal em alta performance, permitindo expandir lavouras e aproveitar as janelas ideais
@@ -29,11 +34,13 @@
                 garantindo o alimento na mesa de milhões de pessoas.</p>
                 <a href="https://www.youtube.com/watch?v=ckh9y-pQNoY" target="_blank">Saiba mais+</a>
             </div>
-        </div>
-        <div class="card inverso">
+        </section>
+
+        <!-- SECTION 2: outro tema central único -> outra section independente -->
+        <section class="card inverso" aria-labelledby="titulo-preservacao">
             <img src="photo-1615811361523-6bd03d7748e7.avif" alt="Preservação ambiental no campo">
             <div class="card-texto">
-                <h2>Importância da preservação</h2>
+                <h2 id="titulo-preservacao">Importância da preservação</h2>
                 <p>A preservação ambiental e as mudanças climáticas tornaram-se os temas mais urgentes da
                 geopolítica global neste século. A transição para matrizes energéticas limpas, como a solar
                 e a eólica, deixou de ser uma alternativa ecológica para virar uma necessidade econômica.
@@ -43,17 +50,20 @@
                 planeta é a única forma de viabilizar a sobrevivência das futuras gerações.</p>
                 <a href="#">Saiba mais+</a>
             </div>
-        </div>
-    </section>
+        </section>
+
+    <!-- FOOTER: "O Alicerce e o Encerramento" (slide "A Tag <footer>")
+         Direitos autorais, contato, redes sociais e navegação secundária. -->
     <footer>
         <div class="footer-conteudo">
 
-            <!-- Marca -->
+            <!-- Marca: agrupamento puramente visual -> div (slide "A Tag <div>") -->
             <div class="footer-marca">
                 <img src="logo1.png" alt="Logo Impulso Rural">
                 <span>Impulso Rural</span>
                 <p>Cultivando o futuro com tecnologia, sustentabilidade e conhecimento para o campo brasileiro.</p>
             </div>
+
             <div class="footer-col">
                 <h3>Navegação</h3>
                 <ul>
@@ -64,6 +74,7 @@
                     <li><a href="#">Sobre nós</a></li>
                 </ul>
             </div>
+
             <div class="footer-col">
                 <h3>Temas</h3>
                 <ul>
@@ -73,6 +84,7 @@
                     <li><a href="#">Agricultura de precisão</a></li>
                 </ul>
             </div>
+
             <div class="footer-col footer-contato">
                 <h3>Contato</h3>
                 <p>Dúvidas ou sugestões?<br>Entre em contato conosco:</p>
